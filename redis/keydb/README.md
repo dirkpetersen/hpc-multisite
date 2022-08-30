@@ -2,6 +2,8 @@
 
 bring up 2 or more nano instances with Ubuntu 20.04 on linode
 
+use the config.sh script or follow the insructions below. Note that "storage-provider flash" is not yet avialable in version 6.3.1 
+
 install packages 
 
 ```
