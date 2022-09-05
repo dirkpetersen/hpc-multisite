@@ -1,8 +1,12 @@
 # configure keydb active-active cluster 
 
+KeyDB is a potential redis replacement as it supports multi-threading and is planning to support flash using RocksDB 
+
+
+
 bring up 2 or more nano instances with Ubuntu 20.04 on linode
 
-use the config.sh script or follow the insructions below. Note that "storage-provider flash" is not yet avialable in version 6.3.1 
+use the config.sh script or follow the instructions below. Note that "storage-provider flash" is not yet available in version 6.3.1. If you need flash you could use `kvrocks` as it as a redis compatible API but used the RocksDB storage engine 
 
 install packages 
 
